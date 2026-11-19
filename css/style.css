@@ -1,0 +1,101 @@
+
+/* NextLab — стартові стилі учнівського проєкту */
+
+/* Header */
+.site-header {
+  height: 78px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  background: #7443a8;
+  color: #fff;
+}
+
+.hero {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7443a8;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand__mark {
+  width: 20px;
+  height: 24px;
+}
+
+.brand__name {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.main-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.main-nav__link {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 13px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-nav__link--active {
+  color: #fff;
+}
+
+.main-nav__link span {
+  margin-left: 2px;
+  font-size: 11px;
+}
+
+.trial-button {
+  min-width: 142px;
+  height: 42px;
+  margin-left: 5px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 9px;
+  background: #75f4df;
+  color: #25263a;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.trial-button span {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* Базові налаштування */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
